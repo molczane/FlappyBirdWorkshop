@@ -213,19 +213,18 @@ private fun GameScreen(onGameOver: (score: Int) -> Unit) {
                     // Ground
                     drawRect(color = Color(0xFFDED895), topLeft = Offset(0f, H - groundH), size = Size(W, groundH))
 
-                    // Pipes
-                    // Top
-                    drawRect(color = Color(0xFF5AC54F), topLeft = Offset(pipeX, 0f), size = Size(pipeW, max(0f, gapCenterY - gapSize / 2f)))
-                    // Bottom
-                    val bottomTop = gapCenterY + gapSize / 2f
-                    drawRect(color = Color(0xFF5AC54F), topLeft = Offset(pipeX, bottomTop), size = Size(pipeW, H - groundH - bottomTop))
+                    // Pipes (vector sprites)
+                    val topBottom = max(0f, gapCenterY - gapSize / 2f)
+                    Sprites.run {
+                        drawPipe(x = pipeX, top = 0f, bottom = topBottom, width = pipeW, isTop = true)
+                        val bottomTop = gapCenterY + gapSize / 2f
+                        drawPipe(x = pipeX, top = bottomTop, bottom = H - groundH, width = pipeW, isTop = false)
+                    }
 
-                    // Bird (simple rectangle placeholder)
-                    drawRect(
-                        color = Color(0xFFFFEB3B),
-                        topLeft = Offset(birdX - birdSize.width / 2f, birdY - birdSize.height / 2f),
-                        size = birdSize
-                    )
+                    // Bird sprite
+                    Sprites.run {
+                        drawBird(cx = birdX, cy = birdY, size = birdSize)
+                    }
                 }
             }
         }

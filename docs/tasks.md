@@ -30,9 +30,9 @@ Key links: Plan → ./plan.md#p{n} | Requirements → ./requirements.md#r{n}
 
 ## Phase 3 — Visuals & Assets
 
-13. [ ] Create IP-safe bird and pipe sprites approximating classic look (not copied). (Refs: [P8](./plan.md#p8), [R5](./requirements.md#r5))
-14. [ ] Integrate sprites into render loop; implement density-aware scaling for crisp results. (Refs: [P8](./plan.md#p8), [R5](./requirements.md#r5), [R8](./requirements.md#r8))
-15. [ ] Verify visuals across common device sizes and pixel densities. (Refs: [P8](./plan.md#p8), [R8](./requirements.md#r8))
+13. [x] Create IP-safe bird and pipe sprites approximating classic look (not copied). (Refs: [P8](./plan.md#p8), [R5](./requirements.md#r5))
+14. [x] Integrate sprites into render loop; implement density-aware scaling for crisp results. (Refs: [P8](./plan.md#p8), [R5](./requirements.md#r5), [R8](./requirements.md#r8))
+15. [x] Verify visuals across common device sizes and pixel densities. (Refs: [P8](./plan.md#p8), [R8](./requirements.md#r8))
 
 ---
 

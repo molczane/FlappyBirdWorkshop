@@ -9,10 +9,10 @@ Key links: Plan → ./plan.md#p{n} | Requirements → ./requirements.md#r{n}
 ## Phase 1 — Setup & Navigation
 
 1. [ ] Confirm project builds and runs on Web (Wasm JS) dev server using README command (`:composeApp:wasmJsBrowserDevelopmentRun`). (Refs: [P10](./plan.md#p10), [R9](./requirements.md#r9))
-2. [ ] Define `Screen` navigation state (e.g., sealed class: Start, Game, Score) in `commonMain`. (Refs: [P1](./plan.md#p1), [R1](./requirements.md#r1))
-3. [ ] Implement root `App()` state machine to switch between screens. (Refs: [P1](./plan.md#p1), [R1](./requirements.md#r1))
-4. [ ] Implement Start screen UI with centered Play button and keyboard focus/Enter/Space activation. (Refs: [P2](./plan.md#p2), [R1](./requirements.md#r1), [R8](./requirements.md#r8))
-5. [ ] Wire Play button to transition to Game screen. (Refs: [P2](./plan.md#p2), [R1](./requirements.md#r1))
+2. [x] Define `Screen` navigation state (e.g., sealed class: Start, Game, Score) in `commonMain`. (Refs: [P1](./plan.md#p1), [R1](./requirements.md#r1))
+3. [x] Implement root `App()` state machine to switch between screens. (Refs: [P1](./plan.md#p1), [R1](./requirements.md#r1))
+4. [x] Implement Start screen UI with centered Play button and keyboard focus/Enter/Space activation. (Refs: [P2](./plan.md#p2), [R1](./requirements.md#r1), [R8](./requirements.md#r8))
+5. [x] Wire Play button to transition to Game screen. (Refs: [P2](./plan.md#p2), [R1](./requirements.md#r1))
 
 ---
 

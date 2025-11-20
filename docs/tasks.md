@@ -18,13 +18,13 @@ Key links: Plan → ./plan.md#p{n} | Requirements → ./requirements.md#r{n}
 
 ## Phase 2 — Gameplay Core
 
-6. [ ] Create Canvas-based playfield with fixed logical size (portrait), auto-scaled with letterboxing. (Refs: [P4](./plan.md#p4), [R2](./requirements.md#r2), [R8](./requirements.md#r8))
-7. [ ] Implement bird physics model: position, velocity, gravity, flap impulse. (Refs: [P5](./plan.md#p5), [R2](./requirements.md#r2), [R6](./requirements.md#r6), [R7](./requirements.md#r7))
-8. [ ] Implement input handlers: tap/click and Space to flap; debounce as needed. (Refs: [P5](./plan.md#p5), [R6](./requirements.md#r6))
-9. [ ] Implement single pipe pair with vertical gap; horizontal scrolling across screen. (Refs: [P6](./plan.md#p6), [R2](./requirements.md#r2))
-10. [ ] Implement collision detection (AABB) for bird vs pipes and ground/off-screen. (Refs: [P6](./plan.md#p6), [R2](./requirements.md#r2))
-11. [ ] End run on collision/out-of-bounds and navigate to Score screen. (Refs: [P6](./plan.md#p6), [R2](./requirements.md#r2), [R4](./requirements.md#r4))
-12. [ ] Implement in-run score increment when bird passes a pipe gap; render HUD. (Refs: [P7](./plan.md#p7), [R3](./requirements.md#r3))
+6. [x] Create Canvas-based playfield with fixed logical size (portrait), auto-scaled with letterboxing. (Refs: [P4](./plan.md#p4), [R2](./requirements.md#r2), [R8](./requirements.md#r8))
+7. [x] Implement bird physics model: position, velocity, gravity, flap impulse. (Refs: [P5](./plan.md#p5), [R2](./requirements.md#r2), [R6](./requirements.md#r6), [R7](./requirements.md#r7))
+8. [x] Implement input handlers: tap/click and Space to flap; debounce as needed. (Refs: [P5](./plan.md#p5), [R6](./requirements.md#r6))
+9. [x] Implement single pipe pair with vertical gap; horizontal scrolling across screen. (Refs: [P6](./plan.md#p6), [R2](./requirements.md#r2))
+10. [x] Implement collision detection (AABB) for bird vs pipes and ground/off-screen. (Refs: [P6](./plan.md#p6), [R2](./requirements.md#r2))
+11. [x] End run on collision/out-of-bounds and navigate to Score screen. (Refs: [P6](./plan.md#p6), [R2](./requirements.md#r2), [R4](./requirements.md#r4))
+12. [x] Implement in-run score increment when bird passes a pipe gap; render HUD. (Refs: [P7](./plan.md#p7), [R3](./requirements.md#r3))
 
 ---
 
